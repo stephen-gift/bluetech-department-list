@@ -237,7 +237,9 @@ const BDLHeader = (props: Props) => {
           <DrawerOverlay />
           <DrawerContent>
             <DrawerCloseButton />
-            <DrawerHeader>Menu</DrawerHeader>
+            <DrawerHeader>
+            <Image alt="logo" src={"/images/logoIcon.png"} boxSize={10} />
+            </DrawerHeader>
 
             <DrawerBody>
               <FormControl>

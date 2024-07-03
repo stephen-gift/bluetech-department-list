@@ -1,7 +1,7 @@
 "use client";
 
 import fetchProducts from "@/api/product/product";
-import { BDLMainLayout, BDLTable } from "@/components";
+import { BDLMainLayout, BDLTable, BDLTableSkeleton } from "@/components";
 import { Product } from "@/types/global";
 import { useProductContext } from "@/utils/context/ProductContext";
 import {
@@ -13,19 +13,35 @@ import {
   Heading,
   Input,
   Select,
+  Text,
   VStack,
 } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 
 const BDLHomePageContainer = () => {
-  const { products, loading, error } = useProductContext();
+  const { products, loading: contextLoading, error } = useProductContext();
+  const [loading, setLoading] = useState(true);
 
-  if (loading) {
-    return <p>Loading...</p>; // Placeholder for loading state
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 3000); // Simulate loading for 3 seconds
+
+    return () => clearTimeout(timer); // Clear timeout if the component is unmounted
+  }, []);
+
+  if (loading || contextLoading) {
+    return (
+      <>
+        <BDLTableSkeleton />
+        <Text>Loading...</Text>
+        {/* Placeholder for loading state */}
+      </>
+    );
   }
 
   if (error) {
-    return <p>{error}</p>; // Placeholder for error state
+    return <Text>{error}</Text>; // Placeholder for error state
   }
 
   return (
