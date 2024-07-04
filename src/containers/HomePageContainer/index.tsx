@@ -34,7 +34,6 @@ const BDLHomePageContainer = () => {
     return (
       <>
         <BDLTableSkeleton />
-        <Text>Loading...</Text>
         {/* Placeholder for loading state */}
       </>
     );

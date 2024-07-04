@@ -1,7 +1,7 @@
 // app/providers.tsx
 "use client";
 
-import customTheme from "@/utils/context/customTheme";
+import customTheme from "@/utils/customTheme";
 import { ChakraProvider } from "@chakra-ui/react";
 
 export function Providers({ children }: { children: React.ReactNode }) {
