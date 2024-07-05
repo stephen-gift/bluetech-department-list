@@ -24,19 +24,33 @@ This project implements a UI design based on a Figma design and integrates with 
 
 ### Screenshots
 
-![Screenshot.png](/public/images/Screenshot.png)
+#### Screenshot 1: Homepage
 
-![Screenshot-10perPage.png](/public/images/Screenshot-10perPage.png)
+![Homepage](/public/images/Screenshot.png)
 
-![Screenshot-with-search.png](/public/images/Screenshot-with-search.png)
+#### Screenshot 2: Products List with Pagination
 
-![Screenshot-darkMode.png](/public/images/Screenshot-darkMode.png)
+![Products List with Pagination](/public/images/Screenshot-10perPage.png)
 
-![Screenshot-mobile.png](/public/images/Screenshot-mobile.png)
+#### Screenshot 3: Search Functionality
 
-![Screenshot-mobile-with-nav.png](/public/images/Screenshot-mobile-with-nav.png)
+![Search Functionality](/public/images/Screenshot-with-search.png)
 
-![Screenshot-mobile-with-nav-active.png](/public/images/Screenshot-mobile-with-nav-active.png)
+#### Screenshot 4: Dark Mode
+
+![Dark Mode](/public/images/Screenshot-darkMode.png)
+
+#### Screenshot 5: Mobile View
+
+![Mobile View](/public/images/Screenshot-mobile.png)
+
+#### Screenshot 6: Mobile Navigation
+
+![Mobile Navigation](/public/images/Screenshot-mobile-with-nav.png)
+
+#### Screenshot 7: Active Mobile Navigation
+
+![Active Mobile Navigation](/public/images/Screenshot-mobile-with-nav-active.png)
 
 ### Links
 
