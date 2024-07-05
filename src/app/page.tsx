@@ -1,9 +1,10 @@
+import { SEO } from "@/components";
 import { BDLHomePageContainer } from "@/containers";
-import Image from "next/image";
 
 export default function Home() {
   return (
     <>
+      <SEO prefix="Home" path="" />
       <BDLHomePageContainer />
     </>
   );
