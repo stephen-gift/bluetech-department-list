@@ -46,7 +46,9 @@ const BDLHomePageContainer = () => {
   return (
     <>
       <Flex flexDir={"column"} gap={10}>
-        <Heading>Fragrance Catalog</Heading>
+        <Heading fontWeight={500} fontSize={18} size={"md"}>
+          Department List
+        </Heading>
         <BDLTable data={products} />
       </Flex>
     </>

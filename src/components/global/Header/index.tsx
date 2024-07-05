@@ -214,11 +214,7 @@ const BDLHeader = (props: Props) => {
                     <Center>
                       <Heading>Deko</Heading>
                     </Center>
-                    <br />
-                    <MenuDivider />
-                    <MenuItem>Your Servers</MenuItem>
-                    <MenuItem>Account Settings</MenuItem>
-                    <MenuItem>Logout</MenuItem>
+                    
                   </MenuList>
                 </Menu>
               </Flex>
@@ -351,11 +347,7 @@ const BDLHeader = (props: Props) => {
                     <Center>
                       <Heading>Deko</Heading>
                     </Center>
-                    <br />
-                    <MenuDivider />
-                    <MenuItem>Your Servers</MenuItem>
-                    <MenuItem>Account Settings</MenuItem>
-                    <MenuItem>Logout</MenuItem>
+                  
                   </MenuList>
                 </Menu>
               </Flex>
