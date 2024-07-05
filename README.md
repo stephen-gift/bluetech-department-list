@@ -22,21 +22,21 @@ This project implements a UI design based on a Figma design and integrates with 
 
 ## Overview
 
-### Screenshot
+### Screenshots
 
-![Example UI Screenshot 1](/images/Screenshot.png)
+![Screenshot.png](/images/Screenshot.png)
 
-![Example UI Screenshot 2](/images/Screenshot-10perPage.png)
+![Screenshot-10perPage.png](/images/Screenshot-10perPage.png)
 
-![Example UI Screenshot 4](/images/Screenshot-with-search.png)
+![Screenshot-with-search.png](/images/Screenshot-with-search.png)
 
-![Example UI Screenshot 3](/images/Screenshot-darkMode.png)
+![Screenshot-darkMode.png](/images/Screenshot-darkMode.png)
 
-![Example UI Screenshot 5](/images/Screenshot-mobile.png)
+![Screenshot-mobile.png](/images/Screenshot-mobile.png)
 
-![Example UI Screenshot 6](/images/Screenshot-mobile-with-nav.png)
+![Screenshot-mobile-with-nav.png](/images/Screenshot-mobile-with-nav.png)
 
-![Example UI Screenshot 7](/images/Screenshot-mobile-with-nav-active.png)
+![Screenshot-mobile-with-nav-active.png](/images/Screenshot-mobile-with-nav-active.png)
 
 ### Links
 
