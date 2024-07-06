@@ -12,7 +12,7 @@ const BDLMainLayout = ({ children }: Props) => {
     <Box>
       <ProductProvider>
         <BDLHeader />
-        <Box as="main" padding="10">
+        <Box as="main" padding={{ base: "4", md: "6", lg: "8", xl: "10" }}>
           {children}
         </Box>
       </ProductProvider>
